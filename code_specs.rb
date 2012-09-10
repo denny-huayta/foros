@@ -29,4 +29,8 @@ describe Roman do
   it 'should convert 13 to XIII' do    
     @roman.convert(13).must_equal "XIII" #assert
   end
+  it 'should convert 12 to XII' do    
+    @roman.convert(12).must_equal "XII" #assert
+  end
 end
+

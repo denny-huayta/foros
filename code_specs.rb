@@ -44,5 +44,8 @@ describe Roman do
   it 'should convert 8 to VIII' do    
     @roman.convert(8).must_equal "VIII" #assert
   end
+  it 'should convert 7 to VII' do    
+    @roman.convert(7).must_equal "VII" #assert
+  end
 end
 

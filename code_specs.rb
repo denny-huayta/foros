@@ -17,4 +17,7 @@ describe Roman do
   it 'should convert 17 to XVII' do    
     @roman.convert(17).must_equal "XVII" #assert
   end
+  it 'should convert 16 to XVI' do    
+    @roman.convert(16).must_equal "XVI" #assert
+  end
 end
